@@ -7,8 +7,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "npm run build && babel-watch src/bin/www",
-    "start": "node dist/bin/www",
+    "start": "npm run build && babel-watch src/bin/www",
+    "dev": "node dist/bin/www",
     "build": "babel -d ./dist ./src -s"
   },
   "dependencies": {
